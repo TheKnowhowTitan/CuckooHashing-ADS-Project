@@ -1,0 +1,9 @@
+Open the Netbeans or any other IDE where the program
+is to be run.
+
+Compile and Run the program.
+
+When the prompt is displayed, Copy Paste the values from
+one of the datasets to the console.
+
+The Output for the respective dataset would be displayed.
