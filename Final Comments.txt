@@ -1,0 +1,12 @@
+Here, as there are 20 rows and each row has a size of 
+3 blocks, the total Space required is 20x3 = 60.
+Thus, one table has 60 blocks. Therefore, considering
+the normal Cuckoo Hashing Strucuture of using two tables, 
+the total number of elements in a dataset can be at most
+120. There is, however, no guarantee that all 120 elements
+can be hashed and thus keeping a load factor close to 
+5/6, we can achieve cases where collisions are minimum.
+A dataset of 100 elements can be skewed and can result
+in multiple cycles and therefore, it is recommended that
+the number of elements that need to entered in the
+database should not exceed 60 (as load factor is 1/2).
